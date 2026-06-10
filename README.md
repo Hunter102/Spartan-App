@@ -1,8 +1,16 @@
-
+<!-- Setup -->
 pip install pandas openpyxl
 
-python app.py
+<!-- Run -->
+python SpartanGroupBuilder.py
 
-<!-- build -->
-pip install pyinstaller
-pyinstaller --onefile --windowed app.py
+<!-- Build -->
+./release.bat
+
+<!-- UI Flow -->
+- Choose excel file
+- Select your group leaders
+- Validate leaders
+- Generate groups
+- Validate and manual group edits
+- Export as excel
