@@ -3,7 +3,7 @@ __pycache__/
 
 build/
 dist/
-release.zip
+*.zip
 *.exe
 
 *.spec
